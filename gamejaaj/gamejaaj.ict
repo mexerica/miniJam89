@@ -1,0 +1,944 @@
+ctjsVersion: 1.7.0
+notes: /* empty */
+libs:
+  place:
+    gridX: 1024
+    gridY: 1024
+  fittoscreen:
+    mode: scaleFit
+  mouse: {}
+  keyboard.polyfill: {}
+  sound.howler: {}
+  keyboard: {}
+textures:
+  - name: pixil-frame-0
+    untill: 0
+    grid:
+      - 4
+      - 1
+    axis:
+      - -1.3333333333333333
+      - 2
+    marginx: 0
+    marginy: 0
+    imgWidth: 200
+    imgHeight: 100
+    width: 42
+    height: 100
+    offx: 0
+    offy: 0
+    origname: ib7176021-8c7f-415b-b26c-7ae271ef459f.png
+    shape: rect
+    left: 0
+    right: 42
+    top: 0
+    bottom: 40
+    uid: b7176021-8c7f-415b-b26c-7ae271ef459f
+    padding: 1
+    source: >-
+      C:\Users\flaud\Downloads\gamejaaj-main\gamejaaj-main\game
+      jaaj\gamejaaj\img\pixil-frame-0.png
+    stripPoints:
+      - x: 0
+        'y': -50
+      - x: 20
+        'y': -15
+      - x: 12
+        'y': 40
+      - x: -12
+        'y': 40
+      - x: -20
+        'y': -15
+    closedStrip: true
+    r: 21
+    lastmod: 1631912466497
+  - name: Earth
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 64
+    imgHeight: 64
+    width: 64
+    height: 64
+    offx: 0
+    offy: 0
+    origname: i049f8c31-a882-4d55-ae74-dc116c29f91b.png
+    shape: rect
+    left: 0
+    right: 64
+    top: 0
+    bottom: 64
+    uid: 049f8c31-a882-4d55-ae74-dc116c29f91b
+    padding: 1
+  - name: pixil-frame-1
+    untill: 0
+    grid:
+      - 4
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 200
+    imgHeight: 100
+    width: 42
+    height: 100
+    offx: 0
+    offy: 0
+    origname: if08b25be-4e35-4d0a-96fa-1eec568d5406.png
+    shape: rect
+    left: 0
+    right: 200
+    top: 0
+    bottom: 100
+    uid: f08b25be-4e35-4d0a-96fa-1eec568d5406
+    padding: 1
+    source: >-
+      C:\Users\flaud\Downloads\gamejaaj-main\gamejaaj-main\game
+      jaaj\gamejaaj\img\pixil-frame-1.png
+    lastmod: 1631908763346
+  - name: Door
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 64
+    imgHeight: 64
+    width: 64
+    height: 64
+    offx: 0
+    offy: 0
+    origname: i1fa6aa78-bfcb-43a3-819f-90db4c435c58.png
+    shape: rect
+    left: 0
+    right: 64
+    top: 0
+    bottom: 64
+    uid: 1fa6aa78-bfcb-43a3-819f-90db4c435c58
+    padding: 1
+    lastmod: 1631916775521
+  - name: pixil-frame-2
+    untill: 0
+    grid:
+      - 4
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 200
+    imgHeight: 100
+    width: 46
+    height: 100
+    offx: 0
+    offy: 0
+    origname: i21b33f76-bf63-4f14-93f5-4d40b271b645.png
+    shape: rect
+    left: 0
+    right: 200
+    top: 0
+    bottom: 100
+    uid: 21b33f76-bf63-4f14-93f5-4d40b271b645
+    padding: 1
+    source: >-
+      C:\Users\flaud\Downloads\gamejaaj-main\gamejaaj-main\game
+      jaaj\gamejaaj\img\pixil-frame-2.png
+    lastmod: 1631913745383
+  - name: Switch
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 64
+    imgHeight: 64
+    width: 64
+    height: 64
+    offx: 0
+    offy: 0
+    origname: idd8c7cb7-4744-4ddf-acc9-a78b18cafaf2.png
+    shape: rect
+    left: 0
+    right: 64
+    top: 0
+    bottom: 64
+    uid: dd8c7cb7-4744-4ddf-acc9-a78b18cafaf2
+    padding: 1
+  - name: pixil-frame-3
+    untill: 0
+    grid:
+      - 5
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 250
+    imgHeight: 100
+    width: 46
+    height: 100
+    offx: 0
+    offy: 0
+    origname: i47ae9fe0-6363-48a4-860b-d91bce710f5a.png
+    shape: rect
+    left: 0
+    right: 250
+    top: 0
+    bottom: 100
+    uid: 47ae9fe0-6363-48a4-860b-d91bce710f5a
+    padding: 1
+    source: >-
+      C:\Users\flaud\Downloads\gamejaaj-main\gamejaaj-main\game
+      jaaj\gamejaaj\img\pixil-frame-3.png
+    lastmod: 1631914688728
+  - name: vessel
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 64
+    imgHeight: 64
+    width: 64
+    height: 64
+    offx: 0
+    offy: 0
+    origname: i99fc8ba4-3c78-4852-8c4f-766ba7dced88.png
+    shape: rect
+    left: 0
+    right: 64
+    top: 0
+    bottom: 64
+    uid: 99fc8ba4-3c78-4852-8c4f-766ba7dced88
+    padding: 1
+  - name: button
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 64
+    imgHeight: 64
+    width: 64
+    height: 64
+    offx: 0
+    offy: 0
+    origname: i16fe5a98-2567-43c9-982c-021ef2f8ff07.png
+    shape: rect
+    left: 0
+    right: 64
+    top: 0
+    bottom: 64
+    uid: 16fe5a98-2567-43c9-982c-021ef2f8ff07
+    padding: 1
+  - name: HeavyDoor
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 64
+    imgHeight: 64
+    width: 64
+    height: 64
+    offx: 0
+    offy: 0
+    origname: i058b7357-4b0a-4882-9b08-5078a295dc8e.png
+    shape: rect
+    left: 0
+    right: 64
+    top: 0
+    bottom: 64
+    uid: 058b7357-4b0a-4882-9b08-5078a295dc8e
+    padding: 1
+skeletons: []
+types:
+  - name: character
+    depth: -3
+    oncreate: |-
+      this.ctype = 'Hero';
+
+      this.play();
+      this.animationSpeed = 0/60
+
+      this.JumpSpeed = -9;
+      this.gravity = 2.5;
+      this.hspd = 0; 
+      this.vspd = 0;
+
+      ct.camera.follow = this;
+      ct.camera.borderX = 450;
+      ct.camera.borderY = 200;
+
+      this.leave = false;
+    onstep: |-
+      this.movespeed = 4 * ct.delta; 
+      this.vspeed = 0;
+      this.vspeed += this.gravity * ct.delta;
+
+      if (this.leave != true){
+          if (ct.actions.MoveR.down) {
+              this.hspeed = this.movespeed;
+              this.animationSpeed = 4/60;
+          } else if (ct.actions.MoveL.down) {
+              this.hspeed = -this.movespeed;
+              this.animationSpeed = 4/60;
+          } else {
+              this.hspeed = 0;
+              this.animationSpeed = 0/60
+          }
+      }
+
+      if (ct.actions.Own.down){
+         if (this.leave == false) {  
+             this.leave = true; 
+          } else{
+              this.leave = false;
+          }
+      }
+
+
+      if (ct.room.nextRoom) {
+          if (ct.place.meet(this, this.x, this.y, 'Switch')) {
+              ct.rooms.switch(ct.room.nextRoom);
+          }
+      }
+       
+      for (var i = 0; i < Math.abs(this.hspeed); i++) {
+          if (ct.place.free(this, this.x + Math.sign(this.hspeed), this.y, 'Solid')) {
+              this.x += Math.sign(this.hspeed);
+          }  else {
+              break;
+          }
+      }
+
+      for (var i = 0; i < Math.abs(this.vspeed); i++) {
+          if (ct.place.free(this, this.x, this.y + Math.sign(this.vspeed), 'Solid')) {
+              this.y += Math.sign(this.vspeed);
+          } else {
+              break;
+          }
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: b7176021-8c7f-415b-b26c-7ae271ef459f
+    extends: {}
+    uid: 5aec5e70-04ba-4b77-a18e-78a54b518891
+    lastmod: 1631920713410
+  - name: Earth
+    depth: 0
+    oncreate: this.ctype = "Solid"
+    onstep: this.move();
+    ondraw: ''
+    ondestroy: ''
+    texture: 049f8c31-a882-4d55-ae74-dc116c29f91b
+    extends: {}
+    uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+    lastmod: 1631907386376
+  - name: Door
+    depth: 0
+    oncreate: this.ctype = 'Solid';
+    onstep: |-
+      if (ct.actions.Act.down){
+          this.ctype = 'notSolid';
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: 1fa6aa78-bfcb-43a3-819f-90db4c435c58
+    extends: {}
+    uid: 75973cc7-82f4-44c4-91ba-77346647040e
+    lastmod: 1631921579041
+  - name: Switch
+    depth: 0
+    oncreate: this.ctype = "Switch";
+    onstep: this.move();
+    ondraw: ''
+    ondestroy: ''
+    texture: dd8c7cb7-4744-4ddf-acc9-a78b18cafaf2
+    extends: {}
+    uid: 00905f06-5f90-442e-88d4-14bcb6f20638
+    lastmod: 1631920008806
+  - name: vessel
+    depth: 0
+    oncreate: this.ctype = "Solid";
+    onstep: |-
+      this.movespeed = 4 * ct.delta; 
+      this.vspeed = 0;
+      this.vspeed += this.gravity * ct.delta;
+
+      if (this.ctype == "Vessel"){
+          if (ct.actions.MoveR.down){
+              this.hspeed = this.movespeed;
+          } else if (ct.actions.MoveL.down){
+              this.hspeed = -this.movespeed;
+          } else{
+              this.hspeed = 0;
+          }
+      }
+
+      if (ct.actions.Own.down){
+          if (this.ctype != "Vessel"){
+              this.ctype = "Vessel";
+          } else {
+              this.ctype = "Solid";
+          }
+
+      }
+
+      for (var i = 0; i < Math.abs(this.hspeed); i++) {
+          if (ct.place.free(this, this.x + Math.sign(this.hspeed), this.y, 'Solid')) {
+              this.x += Math.sign(this.hspeed);
+          } else {
+              break;
+          }
+      }
+
+      for (var i = 0; i < Math.abs(this.vspeed); i++) {
+          if (ct.place.free(this, this.x, this.y + Math.sign(this.vspeed), 'Solid')) {
+              this.y += Math.sign(this.vspeed);
+          } else {
+              break;
+          }
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: 99fc8ba4-3c78-4852-8c4f-766ba7dced88
+    extends: {}
+    uid: f9fe5af3-882c-47bf-b064-dff91e441528
+    lastmod: 1631921605862
+  - name: key
+    depth: 0
+    oncreate: |
+      this.ctype = 'Button';
+      this.visible = false;
+    onstep: |-
+      if (ct.place.meet(this, this.x, this.y, 'Vessel')){
+          
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: 16fe5a98-2567-43c9-982c-021ef2f8ff07
+    extends: {}
+    uid: 2bc33d64-1761-4480-bb2d-38b7caba2f99
+    lastmod: 1631921051371
+  - name: HeavyDoor
+    depth: 0
+    oncreate: this.ctype = 'Solid';
+    onstep: |-
+      if (ct.place.meet(this, this.x, this.y, 'Pressed')){
+          this.ctype = 'notSolid';
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: 058b7357-4b0a-4882-9b08-5078a295dc8e
+    extends: {}
+    uid: 97591d78-8d8f-4ac9-8cfd-af7ac6e323cd
+    lastmod: 1631919628942
+sounds:
+  - name: hell
+    uid: 60936f82-409a-4d08-9225-5007887ae3fa
+    isMusic: true
+    origname: s60936f82-409a-4d08-9225-5007887ae3fa.mp3
+    lastmod: 1627850162403
+    poolSize: 1
+  - name: Personality
+    uid: 1b3c5932-043c-4fe5-8a12-b1127307415c
+    origname: s1b3c5932-043c-4fe5-8a12-b1127307415c.mp3
+    lastmod: 1627849558976
+    isMusic: true
+  - name: Personality_3
+    uid: 5b79a9b0-4a36-48df-86b7-b0cae1e62058
+    origname: s5b79a9b0-4a36-48df-86b7-b0cae1e62058.mp3
+    lastmod: 1627849789961
+    isMusic: true
+  - name: Personality_1
+    uid: 0976aa87-fd9a-4e59-90b8-142c6962bdf3
+    origname: s0976aa87-fd9a-4e59-90b8-142c6962bdf3.mp3
+    lastmod: 1627849843158
+    isMusic: true
+  - name: dramatic
+    uid: 062fe1fb-0f37-4b16-888f-810f94f38ffb
+    origname: s062fe1fb-0f37-4b16-888f-810f94f38ffb.mp3
+    lastmod: 1627850000506
+    isMusic: true
+  - name: odisseia
+    uid: 3bc661c9-4952-4b95-a964-ff00cf08042e
+    origname: s3bc661c9-4952-4b95-a964-ff00cf08042e.mp3
+    lastmod: 1627851511436
+    isMusic: true
+  - name: odisseia_1
+    uid: c45c7fa5-8fe3-4925-aef3-68d6999bb2e7
+    origname: sc45c7fa5-8fe3-4925-aef3-68d6999bb2e7.mp3
+    lastmod: 1627851769093
+    isMusic: true
+styles:
+  - name: main
+    uid: 13b10fff-0090-4cd7-98cb-4c79552533bc
+    origname: s4c79552533bc
+    font:
+      family: sans-serif
+      size: 20
+      weight: '800'
+      italic: false
+    lastmod: 1627586329938
+    fill:
+      type: '0'
+      color: '#0037FF'
+  - name: not_main
+    uid: 0119b5b0-2ff3-4ee5-85bb-8bbda504e911
+    origname: s8bbda504e911
+    font:
+      family: sans-serif
+      size: 20
+      weight: '800'
+      italic: false
+      wrap: true
+      wrapPosition: 473
+    lastmod: 1627609055233
+    fill:
+      type: '0'
+      color1: '#FF33E4'
+      color: '#FF1CE1'
+    shadow:
+      color: '#000000'
+      x: 0
+      'y': 0
+      blur: 0
+rooms:
+  - name: Room_01
+    oncreate: this.nextRoom = 'Room_02';
+    onstep: ''
+    ondraw: ''
+    onleave: ''
+    width: 800
+    height: 600
+    backgrounds: []
+    copies:
+      - x: 192
+        'y': 256
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 256
+        'y': 256
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 320
+        'y': 256
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 384
+        'y': 256
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 192
+        'y': 192
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 192
+        'y': 128
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 448
+        'y': 320
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 512
+        'y': 384
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 576
+        'y': 448
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 640
+        'y': 512
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 704
+        'y': 512
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 768
+        'y': 512
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 832
+        'y': 512
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 832
+        'y': 320
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 832
+        'y': 256
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 896
+        'y': 512
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 960
+        'y': 512
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 832
+        'y': 448
+        uid: 75973cc7-82f4-44c4-91ba-77346647040e
+        exts: {}
+      - x: 832
+        'y': 384
+        uid: 75973cc7-82f4-44c4-91ba-77346647040e
+        exts: {}
+      - x: 1024
+        'y': 512
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 1024
+        'y': 448
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 1024
+        'y': 448
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 1024
+        'y': 384
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 1024
+        'y': 320
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 1024
+        'y': 256
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 960
+        'y': 448
+        uid: 00905f06-5f90-442e-88d4-14bcb6f20638
+        exts: {}
+      - x: 320
+        'y': 192
+        uid: 5aec5e70-04ba-4b77-a18e-78a54b518891
+        exts: {}
+    tiles:
+      - depth: -10
+        tiles: []
+        extends: {}
+    uid: ed069cc8-409e-4877-9c20-c6ec234a5efa
+    thumbnail: c6ec234a5efa
+    extends: {}
+    gridX: 64
+    gridY: 64
+    lastmod: 1631920303969
+  - name: Room_02
+    oncreate: this.nextRoom = 'Room_03';
+    onstep: ''
+    ondraw: ''
+    onleave: ''
+    width: 800
+    height: 600
+    backgrounds: []
+    copies:
+      - x: 64
+        'y': 128
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 0
+        'y': 128
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 128
+        'y': 128
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: -0.0
+        'y': 64
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 0
+        'y': 0
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 640
+        'y': 0
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 640
+        'y': 64
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 640
+        'y': 128
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 640
+        'y': 192
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 640
+        'y': 320
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 640
+        'y': 256
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 640
+        'y': 384
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 64
+        'y': 448
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 192
+        'y': 448
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 128
+        'y': 448
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 320
+        'y': 448
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 384
+        'y': 448
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 448
+        'y': 448
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 512
+        'y': 448
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 576
+        'y': 448
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 640
+        'y': 448
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 192
+        'y': 128
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 256
+        'y': 128
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 320
+        'y': 128
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 384
+        'y': 128
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 448
+        'y': 128
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 512
+        'y': 128
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 64
+        'y': 64
+        uid: 5aec5e70-04ba-4b77-a18e-78a54b518891
+        exts: {}
+      - x: 256
+        'y': 448
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 256
+        'y': 320
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 320
+        'y': 320
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 384
+        'y': 320
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 448
+        'y': 320
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 512
+        'y': 320
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 576
+        'y': 320
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 0
+        'y': 448
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: -0.0
+        'y': 384
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 0
+        'y': 320
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 0
+        'y': 256
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 0
+        'y': 192
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 576
+        'y': 384
+        uid: 00905f06-5f90-442e-88d4-14bcb6f20638
+        exts: {}
+      - x: 192
+        'y': 320
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 448
+        'y': 384
+        uid: f9fe5af3-882c-47bf-b064-dff91e441528
+        exts: {}
+    tiles:
+      - depth: -10
+        tiles: []
+        extends: {}
+    uid: cbcca711-fc96-4575-9895-73d5b3382781
+    thumbnail: 73d5b3382781
+    extends: {}
+    gridX: 64
+    gridY: 64
+    lastmod: 1631921365398
+  - name: Room_03
+    oncreate: ''
+    onstep: ''
+    ondraw: ''
+    onleave: ''
+    width: 800
+    height: 600
+    backgrounds: []
+    copies:
+      - x: 64
+        'y': 64
+        uid: 5aec5e70-04ba-4b77-a18e-78a54b518891
+        exts: {}
+      - x: 0
+        'y': 128
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 64
+        'y': 128
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: -64
+        'y': 128
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+      - x: 128
+        'y': 128
+        uid: 04abd0ed-a912-4f1a-adb4-844bca291951
+        exts: {}
+    tiles:
+      - depth: -10
+        tiles: []
+        extends: {}
+    uid: 97d1f189-a04f-4692-8798-1f6d886f8075
+    thumbnail: 1f6d886f8075
+    extends: {}
+    gridX: 64
+    gridY: 64
+    lastmod: 1631920316497
+actions:
+  - name: MoveR
+    methods:
+      - code: keyboard.ArrowRight
+      - code: keyboard.KeyD
+  - name: Own
+    methods:
+      - code: keyboard.KeyW
+      - code: keyboard.ArrowUp
+  - name: Act
+    methods:
+      - code: keyboard.ArrowDown
+      - code: keyboard.KeyS
+  - name: MoveL
+    methods:
+      - code: keyboard.ArrowLeft
+      - code: keyboard.KeyA
+emitterTandems: []
+scripts: []
+starting: 0
+settings:
+  authoring:
+    author: Tiago
+    site: ''
+    title: Jack
+    version:
+      - 0
+      - 0
+      - 4
+    versionPostfix: ''
+  rendering:
+    usePixiLegacy: true
+    maxFPS: 60
+    pixelatedrender: true
+    highDensity: true
+    desktopMode: maximized
+  export:
+    windows: true
+    linux: true
+    mac: true
+    functionWrap: false
+    codeModifier: none
+  branding:
+    accent: '#446adb'
+    invertPreloaderScheme: true
+  fps: 30
+fonts: []
+palette: []
+startroom: ed069cc8-409e-4877-9c20-c6ec234a5efa
+styletick: .nan
